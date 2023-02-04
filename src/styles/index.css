@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div {
+  h1 {
+    @apply text-cyan-300;
+  }
+  span {
+    @apply text-2xl text-blue-900;
+  }
+}
